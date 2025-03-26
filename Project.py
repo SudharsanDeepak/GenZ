@@ -17,7 +17,9 @@ from selenium.webdriver.edge.options import Options as EdgeOptions
 from selenium.common.exceptions import TimeoutException, WebDriverException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
-
+import google.generativeai as genai
+print("Module imported successfully!")
+# --- 📝 LeetCode API Setup ---
 # --- 🔐 Gemini API Setup ---
 API_KEY = "AIzaSyAuqflDWBKYP3edhkTH69qoTKJZ_BgbNW8"
 genai.configure(api_key=API_KEY)
