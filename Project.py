@@ -18,6 +18,8 @@ from selenium.common.exceptions import TimeoutException, WebDriverException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import google.generativeai as genai
+import selenium
+print(selenium.__version__)
 print("Module imported successfully!")
 # --- 📝 LeetCode API Setup ---
 # --- 🔐 Gemini API Setup ---
