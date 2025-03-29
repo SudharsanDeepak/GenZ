@@ -3,5 +3,5 @@ webbrowser
 requests
 pyautogui
 pyperclip
-google-generativeai
 beautifulsoup4
+google-generativeai
